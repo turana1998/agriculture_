@@ -1,6 +1,6 @@
 .table{
     width: 100%;
-    background: #03918C;
+    background-color: var(--thm-base);
     padding-bottom: 50px;
     width: 1490px;
     margin-right: auto;
@@ -24,13 +24,20 @@
     color: white !important;
     width: 20%;
 }
+.table-top-line li a{
+    color: white !important;
+}
 .black-line{
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background: black;
+    background: var(--thm-primary);
     height: 100px;
     margin-top: 30px;
+}
+.tab-button:hover {
+    background: #00843D;
+    text-decoration: none;
 }
 .calculator{
     background: white;
@@ -39,7 +46,7 @@
     margin-left: auto;
 }
 .product-names{
-    background: #00C7C1;
+    background: var(--thm-primary);
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -11,9 +11,9 @@
 $('.pr-ha input').keyup(function(){
     var hektar =  parseFloat(Math.abs($(this).val()));
     var emsal = parseFloat($(this).parent().parent().find('.pr-unit span').text());
-    var price = parseFloat( hektar * 200 * emsal).toFixed(2) + 'â‚¼';
+    var price = parseFloat( hektar * 200 * emsal).toFixed(2) + '₼';
     if(isNaN(hektar * 200 * emsal)){
-        $(this).parent().parent().find('.pr-result span').text('â‚¼');
+        $(this).parent().parent().find('.pr-result span').text('₼');
     }else {
         $(this).parent().parent().find('.pr-result span').text(price);
     }

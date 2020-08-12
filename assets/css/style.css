@@ -2854,7 +2854,6 @@ h6 {
 .service_one {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
     background: #f5f0e9;
 }
 .service_1_single {
@@ -2962,8 +2961,8 @@ h6 {
     padding: 120px 0 120px;
 }
 .single_brand_item img{
-width: 200px !important;
-height: 90px !important;
+width: 150px !important;
+height: 70px !important;
 }
 .single_featured_box {
     background: var(--thm-primary);
